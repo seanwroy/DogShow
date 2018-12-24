@@ -3,6 +3,14 @@
 <link rel="stylesheet" type="text/css" href="rsc/style.css"/>
 <head>
 <meta charset="ISO-8859-1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+  crossorigin="anonymous"></script>
+<script src="rsc/script.js"></script>
+
 <title>Burlington Kennel & Obedience Club Dog Show</title>
 </head>
 <body>
@@ -45,7 +53,7 @@
 	  	
 	    <input type="submit" value="Submit" onclick="alert('Your pet has been entered into the competition!\n\nPlease click View Entrants to view your pet and the rest of the competition!')">
 		<br>
-	    <a href="GetDogs" id="view" style="float: left;">View Entrants</a><a href="search.jsp" id="view" style="float: right;">Search Entrants</a>
+	    <a href="GetDogs" id="view" style="float: left; text-decoration: none;">View Entrants</a><a href="search.jsp" id="view" style="float: right; text-decoration: none;">Search Entrants</a>
 	    <br>
 	    <br>
 	    <br>
@@ -60,11 +68,5 @@
 	<input type="submit" value="Show List" style="width: 200px; display: block; margin-left: auto; margin-right: auto; background-color: #8B0000;">
 	</form>
 	
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script
-  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
-  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
-  crossorigin="anonymous"></script>
-<script src="rsc/script.js"></script>
 </body>
 </html>

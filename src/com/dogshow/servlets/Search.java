@@ -44,8 +44,8 @@ public class Search extends HttpServlet {
 			stringBuilder.append("SELECT * FROM dogs WHERE ");
 			
 			if(!number.equals("")){
-				if(!stringBuilder.toString().contains("AND ") && (!stringBuilder.toString().contains("Number") && !stringBuilder.toString().contains("Name") && 
-						!stringBuilder.toString().contains("Owner_name") && !stringBuilder.toString().contains("Breed") && !stringBuilder.toString().contains("GroupNo"))) {
+				if(!stringBuilder.toString().contains("AND ") && (!stringBuilder.toString().contains("Number") && !stringBuilder.toString().contains("Dog_Name") && 
+						!stringBuilder.toString().contains("Owner_name") && !stringBuilder.toString().contains("Breed") && !stringBuilder.toString().contains("GroupName"))) {
 					stringBuilder.append("Number= '" + number + "'");
 				} else {
 					stringBuilder.append(" AND Number= '" + number + "'");
@@ -53,17 +53,17 @@ public class Search extends HttpServlet {
 			} 
 			
 			if(!dogname.equals("")){
-				if(!stringBuilder.toString().contains("AND ") && (!stringBuilder.toString().contains("Number") && !stringBuilder.toString().contains("Name") && 
-						!stringBuilder.toString().contains("Owner_name") && !stringBuilder.toString().contains("Breed") && !stringBuilder.toString().contains("GroupNo"))) {
-					stringBuilder.append("Name= '" + dogname + "'");
+				if(!stringBuilder.toString().contains("AND ") && (!stringBuilder.toString().contains("Number") && !stringBuilder.toString().contains("Dog_Name") && 
+						!stringBuilder.toString().contains("Owner_name") && !stringBuilder.toString().contains("Breed") && !stringBuilder.toString().contains("GroupName"))) {
+					stringBuilder.append("Dog_Name= '" + dogname + "'");
 				} else {
-					stringBuilder.append(" AND Name= '" + dogname + "'");
+					stringBuilder.append(" AND Dog_Name= '" + dogname + "'");
 				}
 			} 
 			
 			if(!ownername.equals("")){
-				if(!stringBuilder.toString().contains("AND ") && (!stringBuilder.toString().contains("Number") && !stringBuilder.toString().contains("Name") && 
-						!stringBuilder.toString().contains("Owner_name") && !stringBuilder.toString().contains("Breed") && !stringBuilder.toString().contains("GroupNo"))) {
+				if(!stringBuilder.toString().contains("AND ") && (!stringBuilder.toString().contains("Number") && !stringBuilder.toString().contains("Dog_Name") && 
+						!stringBuilder.toString().contains("Owner_name") && !stringBuilder.toString().contains("Breed") && !stringBuilder.toString().contains("GroupName"))) {
 					stringBuilder.append("Owner_name= '" + ownername + "'");
 				} else {
 					stringBuilder.append(" AND Owner_name= '" + ownername + "'");
@@ -71,8 +71,8 @@ public class Search extends HttpServlet {
 			}  
 			
 			if(!breed.equals("")){
-				if(!stringBuilder.toString().contains("AND ") && (!stringBuilder.toString().contains("Number") && !stringBuilder.toString().contains("Name") && 
-						!stringBuilder.toString().contains("Owner_name") && !stringBuilder.toString().contains("Breed") && !stringBuilder.toString().contains("GroupNo"))) {
+				if(!stringBuilder.toString().contains("AND ") && (!stringBuilder.toString().contains("Number") && !stringBuilder.toString().contains("Dog_Name") && 
+						!stringBuilder.toString().contains("Owner_name") && !stringBuilder.toString().contains("Breed") && !stringBuilder.toString().contains("GroupName"))) {
 					stringBuilder.append("Breed= '" + breed + "'");
 				} else {
 					stringBuilder.append(" AND Breed= '" + breed + "'");
@@ -80,11 +80,11 @@ public class Search extends HttpServlet {
 			}
 			
 			if(!group.equals("")){
-				if(!stringBuilder.toString().contains("AND ") && (!stringBuilder.toString().contains("Number") && !stringBuilder.toString().contains("Name") && 
-						!stringBuilder.toString().contains("Owner_name") && !stringBuilder.toString().contains("Breed") && !stringBuilder.toString().contains("GroupNo"))) {
-					stringBuilder.append("GroupNo= '" + group  + "'");
+				if(!stringBuilder.toString().contains("AND ") && (!stringBuilder.toString().contains("Number") && !stringBuilder.toString().contains("Dog_Name") && 
+						!stringBuilder.toString().contains("Owner_name") && !stringBuilder.toString().contains("Breed") && !stringBuilder.toString().contains("GroupName"))) {
+					stringBuilder.append("GroupName= '" + group  + "'");
 				} else {
-					stringBuilder.append(" AND GroupNo= '" + group  + "'");
+					stringBuilder.append(" AND GroupName= '" + group  + "'");
 				}
 			} 
 			
