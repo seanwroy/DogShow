@@ -49,7 +49,7 @@
 	    <input type="submit" value="Search">
 		<br>
 		<br>
-	    <a href="index.jsp" id="view">Go Back</a>
+	    <a href="index.jsp" id="view" style="text-decoration: none;">Go Back</a>
 	</form>
 </div>
 

@@ -8,7 +8,7 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" type="text/css" href="rsc/style.css"/>
+<link rel="stylesheet" type="text/css" href="rsc/viewstyle.css"/>
 <head>
 <title>View Entrants</title>
 
@@ -194,7 +194,7 @@
             </tr>
         </table>
         <br>
-        <a href="index.jsp" id="view">Go Back</a>
+        <a href="index.jsp" id="view" style="text-decoration: none;">Go Back</a>
         </div>
 
 </body>

@@ -6,7 +6,7 @@
 <%@ page import="java.util.ArrayList" %>
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="rsc/style.css"/>
+<link rel="stylesheet" type="text/css" href="rsc/viewstyle.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <head>
@@ -55,7 +55,7 @@
             </tr>
         </table>
         <br>
-        <a href="search.jsp" id="view">Go Back</a>
+        <a href="search.jsp" id="view" style="text-decoration: none;">Go Back</a>
         </div>
 
 </body>

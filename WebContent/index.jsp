@@ -15,6 +15,7 @@
 </head>
 <body>
 <h1>Burlington Kennel & Obedience Club</h1>
+
 	<div id="dogs"></div>
 	<br>
 	
@@ -61,11 +62,11 @@
 	</div>
 
 	<form action="DummyDogs" method="get">
-	<input type="submit" value="Generate 100 Random Dogs" style="width: 200px; display: block; margin-left: auto; margin-right: auto; background-color: #8B0000;" onclick="alert('100 Random Dog Records Generated!')">
+	<input type="submit" value="Generate 100 Random Dogs (Debug)" style="width: 260px; display: block; margin-left: auto; margin-right: auto; background-color: #8B0000;" onclick="alert('100 Random Dog Records Generated!')">
 	</form>
 	
 	<form action="ShowList" method="get">
-	<input type="submit" value="Show List" style="width: 200px; display: block; margin-left: auto; margin-right: auto; background-color: #8B0000;">
+	<input type="submit" value="Show List (Debug)" style="width: 200px; display: block; margin-left: auto; margin-right: auto; background-color: #8B0000;">
 	</form>
 	
 </body>
